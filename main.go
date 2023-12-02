@@ -38,7 +38,7 @@ type Game struct {
 }
 
 func main() {
-    ptrFile, err := os.Open("example.txt")
+    ptrFile, err := os.Open("input.txt")
     if err != nil {
         log.Fatalf("while trying to open the file %q: %s", ptrFile.Name(), err)
     }
